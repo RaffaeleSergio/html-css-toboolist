@@ -19,8 +19,8 @@
     height: 40px;
     background-color: white;
     margin: 0 200px;
-    padding-left: 60px;
     font-size: large;
+    margin: 0px 0 5px 250px;
 
 }
 
@@ -38,10 +38,9 @@
 }
 
 /* fineaddtask */
-.ligthblu{
-    
-}
-.white{
+.ligthblu {}
+/* add section */
+.white {
     background-color: white;
     border: 2px solid;
     border-radius: 10%;
@@ -50,8 +49,74 @@
     font-size: medium;
     margin: 10px 10px 0px 5px;
     height: 25px;
-    border-color:grey ;
+    border-color: grey;
 }
-/* addsection */
+/* fine add section */
+/* lista forma */
+.container{
+    width: 70%;
+    height: 600px;
+    margin: 0px 0 5px 250px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20x 30x;
+    font-size: 20px;
+    
+}
 
-/* fineaddsection */
+.todos{
+    list-style: none;
+    
+}
+/* forma check */
+.check{
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+   
+}
+.cross{
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+body{
+    font-family: sans-serif;
+}
+.listaspace{
+    margin-bottom: 10px;
+}
+.tag{
+    
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+.blu {
+    background-color: blue;
+}
+.viola{
+    background-color: blueviolet;
+}
+.verde{
+    background-color: green;
+}
+.arancione{
+    background-color: orange;
+}
+.rosa{
+    background-color: pink;
+}
+.giallo{
+    background-color: yellowgreen;
+}
+
+/* fine forma check */
+/* finelista forma */
