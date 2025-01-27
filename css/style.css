@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
-    background-color: rgb(243, 241, 241);
+    box-sizing: border-box;
+
 }
 
 /* logo */
@@ -21,6 +21,8 @@
     margin: 0 200px;
     font-size: large;
     margin: 0px 0 5px 250px;
+    padding-left: 50px;
+
 
 }
 
@@ -30,10 +32,13 @@
     width: 90px;
     height: 25px;
     margin: 10px 10px 0px 10px;
-    border-radius: 10%;
+    border-radius: 15%;
     display: inline-block;
     text-align: center;
     font-size: medium;
+
+
+
 
 }
 
@@ -42,43 +47,46 @@
 /* add section */
 .white {
     background-color: white;
-    border: 2px solid;
-    border-radius: 10%;
+    border: 2px solid grey;
+    border-radius: 15%;
     display: inline-block;
     text-align: center;
     font-size: medium;
     margin: 10px 10px 0px 5px;
     height: 25px;
-    border-color: grey;
+    padding: 1px 5px;
 }
 /* fine add section */
 /* lista forma */
 .container{
     width: 70%;
-    height: 600px;
+    height: 500px;
     margin: 0px 0 5px 250px;
-    border: 1px solid black;
     background-color: white;
-    padding: 20x 30x;
+    padding: 20px;
     font-size: 20px;
-    
+
+
+
 }
 
 .todos{
     list-style: none;
-    
+
 }
 /* forma check */
 .check{
     color: green;
     border: 2px solid green;
-    border-radius: 10px;
-   
+    border-radius: 100px;
+    padding: 3px 6px;
+
 }
 .cross{
     color: red;
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 100px;
+    padding: 3px 6px;
 }
 body{
     font-family: sans-serif;
@@ -87,7 +95,7 @@ body{
     margin-bottom: 10px;
 }
 .tag{
-    
+
     width: 90px;
     height: 25px;
     line-height: 25px;
@@ -117,6 +125,8 @@ body{
 .giallo{
     background-color: yellowgreen;
 }
-
+body{
+    background-color: lightgray;
+}
 /* fine forma check */
 /* finelista forma */
