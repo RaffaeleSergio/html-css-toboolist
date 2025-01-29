@@ -18,9 +18,9 @@
     width: 70%;
     height: 70px;
     background-color: white;
-    margin: 0 200px;
+    /* margin: 0 200px; */
     font-size: large;
-    margin: 0px 0 5px 250px;
+    margin: 5px auto;
     padding-left: 50px;
     border-radius: 10px 10px 0 0;
 
@@ -81,7 +81,7 @@
 /* lista forma */
 .container {
     width: 70%;
-    margin: 0px 0 5px 250px;
+    margin: 0px auto;
     background-color: white;
     padding: 20px;
     font-size: 20px;
